@@ -1,6 +1,7 @@
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # now connect to the web server on port 80 - the normal http port
+#This is a comment added to check github
 s.connect(("www.python.org", 82))
 #how fixwd length is important in socket
 import socket
