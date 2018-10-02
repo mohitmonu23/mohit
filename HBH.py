@@ -3,4 +3,4 @@ class node(object):
         self.data=data;
         self.nextNode=none;
     def 
-        
+    # incomplete!
