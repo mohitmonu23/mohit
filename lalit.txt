@@ -1,0 +1,22 @@
+
+#include <iostream>
+#include<vector>
+using namespace std;
+
+int main()
+{
+    vector<int> m1,m2;
+    m1.assign(5,10);
+    for(int i=0;i<4;i++)
+    {
+        int n;
+        cin>>n;
+        m2.push_back(n);
+    }
+    m2.insert(m2.begin()+2,m1.begin()+0,m1.begin()+3);
+    for(int i=0;i<m2.size();i++)
+    {
+        cout<<m2[i]<<" ";
+    }
+    return 0;
+}
