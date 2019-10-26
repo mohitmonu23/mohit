@@ -100,7 +100,7 @@ For information about building Python's documentation, refer to Doc/README.txt.
 Web sites
 ---------
 
-New Python releases and related technologies are published at
+New Python release and related technologies are published at
 http://www.python.org/.  Come visit us!
 
 
